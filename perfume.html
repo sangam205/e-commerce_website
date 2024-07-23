@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shopping Site</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <a href="\"><img src="images/KM_logo.png" alt=""> </a>
+      </div>
+
+      <div class="nav-links">
+        <ul id="menu">
+          <li><a href="#">Men</a>
+            <ul>
+              <li><a href="menDress.html">Mens Wear</a></li>
+              <li><a href="menFootwear.html">Footwear</a></li>
+              <li id="accessory"><a href="#">Accessories +</a>
+              <ul>
+                <li><a href="wallet.html">Wallets</a></li>
+                <li><a href="belt.html">Belts</a></li>
+                <li><a href="tie.html">Tie, Pocket Square</a></li>
+                <li><a href="menWatch.html">Watches</a></li>
+              </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Women</a>
+          <ul>
+            <li><a href="womenDress.html">Womens Wear</a></li>
+            <li><a href="womenFootwear.html">Footwear</a></li>
+            <li><a href="#">Accessories +</a>
+            <ul>
+              <li><a href="womenBag.html">Handbags</a></li>
+              <li><a href="necklace.html">Necklace</a></li>
+              <li><a href="earring.html">Earrings</a></li>
+              <li><a href="womenWatch.html">Watches</a></li>
+            </ul>
+            </li>
+          </ul>
+          </li>
+          <li><a href="#">Kids</a>
+          <ul>
+            <li><a href="kidDress.html">Kids Wear</a></li>
+            <li><a href="kidFootwear.html">Footwear</a></li>
+            <li><a href="stationary.html">Stationary</a></li>
+            <li><a href="toy.html">Toys</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Home Essentials</a>
+          <ul>
+            <li><a href="homeAppliance.html">Appliances</a></li>
+            <li><a href="furniture.html">Furnitures</a></li>
+            <li><a href="kitchen.html">Kitchen Supplies</a></li>
+            <li><a href="decor.html">Decorative Items</a></li>
+            <li><a href="tv.html">Smart LED TV</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+
+       <!-- <div class="nav-right"> -->
+
+        <div class="search-bar"> 
+          <input type="text" placeholder="&nbsp; Search for products.....">
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="icons">
+          <a class="action-container" href="profile.html">
+          <i class="fa-solid fa-user"></i>
+          <span class="action-name">Profile</span> 
+          </a>
+
+          <div class="shop">
+          <a class="action-container" href="cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="action-name">Cart</span>
+          <span class="cart-item-count">0</span> 
+          </a>
+        </div>
+
+
+         <i class="fa-solid fa-bars menu-bar menu-button" id="menu-icon" onclick="openMenu()"></i>
+
+          <i class="fa-solid fa-circle-xmark menu-bar cross-button" id="close-icon" onclick="closeMenu()"></i>
+          
+
+
+
+      </div>
+    <!-- </div> -->
+
+
+
+
+    </nav>
+  </header>
+
+<main>
+  <div class="items-container">
+   
+  </div>
+
+
+</main>
+  
+
+<footer>
+
+
+</footer>
+
+
+<script src="itemsOfPerfume.js"></script>
+<script src="function.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping Site</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <a href="\"><img src="images/KM_logo.png" alt=""> </a>
+      </div>
+
+      <div class="nav-links">
+        <ul id="menu">
+          <li><a href="#">Men</a>
+            <ul>
+              <li><a href="menDress.html">Mens Wear</a></li>
+              <li><a href="menFootwear.html">Footwear</a></li>
+              <li id="accessory"><a href="#">Accessories +</a>
+              <ul>
+                <li><a href="wallet.html">Wallets</a></li>
+                <li><a href="belt.html">Belts</a></li>
+                <li><a href="tie.html">Tie, Pocket Square</a></li>
+                <li><a href="menWatch.html">Watches</a></li>
+              </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Women</a>
+          <ul>
+            <li><a href="womenDress.html">Womens Wear</a></li>
+            <li><a href="womenFootwear.html">Footwear</a></li>
+            <li><a href="#">Accessories +</a>
+            <ul>
+              <li><a href="womenBag.html">Handbags</a></li>
+              <li><a href="necklace.html">Necklace</a></li>
+              <li><a href="earring.html">Earrings</a></li>
+              <li><a href="womenWatch.html">Watches</a></li>
+            </ul>
+            </li>
+          </ul>
+          </li>
+          <li><a href="#">Kids</a>
+          <ul>
+            <li><a href="kidDress.html">Kids Wear</a></li>
+            <li><a href="kidFootwear.html">Footwear</a></li>
+            <li><a href="stationary.html">Stationary</a></li>
+            <li><a href="toy.html">Toys</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Home Essentials</a>
+          <ul>
+            <li><a href="homeAppliance.html">Appliances</a></li>
+            <li><a href="furniture.html">Furnitures</a></li>
+            <li><a href="kitchen.html">Kitchen Supplies</a></li>
+            <li><a href="decor.html">Decorative Items</a></li>
+            <li><a href="tv.html">Smart LED TV</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+
+       <!-- <div class="nav-right"> -->
+
+        <div class="search-bar"> 
+          <input type="text" placeholder="&nbsp; Search for products.....">
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="icons">
+          <a class="action-container" href="profile.html">
+          <i class="fa-solid fa-user"></i>
+          <span class="action-name">Profile</span> 
+          </a>
+
+          <div class="shop">
+          <a class="action-container" href="cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="action-name">Cart</span>
+          <span class="cart-item-count">0</span> 
+          </a>
+        </div>
+
+
+         <i class="fa-solid fa-bars menu-bar menu-button" id="menu-icon" onclick="openMenu()"></i>
+
+          <i class="fa-solid fa-circle-xmark menu-bar cross-button" id="close-icon" onclick="closeMenu()"></i>
+          
+
+
+
+      </div>
+    <!-- </div> -->
+
+
+
+
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="header-slider">
+      <a href="#" class="arrow previous-arrow">&#8678;</a>
+      <a href="#" class="arrow next-arrow">&#8680;</a>
+      <ul>
+
+    <a href="womenDress.html"><img src="images/banner_12.jpg" class="banner-image" alt="Main Banner"></a>
+
+   <a href="menFootwear.html"><img src="images/banner_11.avif" class="banner-image" alt="Main Banner"></a>
+
+   <a href="toy.html"><img src="images/banner_10.jpg" class="banner-image" alt="Main Banner"></a>
+
+      </ul>
+    </div>
+
+    <div class="category-heading">Fashion to fall in love with</div>
+
+    <div class="category-items">
+
+     <a href="#0" class="control-prev"><span class="material-symbols-outlined">
+       arrow_back_ios_new
+       </span></a>
+
+       <a href="#0" class="control-next"><span class="material-symbols-outlined">
+         arrow_forward_ios
+         </span></a>
+
+     <a href="menDress.html"><img class="sale-item" src="images/men dress/mens_wear.jpg"></a>
+
+     <a href="womenDress.html"><img class="sale-item" src="images/women dress/womens-wear.webp"></a>
+
+     <a href="kidDress.html"><img class="sale-item" src="images/kids dress/kids-wear.jpg"></a>
+
+     <a href="womenFootwear.html"><img class="sale-item" src="images/women footwear/Ladies_Footwear.webp"></a>
+
+     <a href="menFootwear.html"><img class="sale-item" src="images/men footwear/footwear-mens.jpeg"></a>
+
+     <a href="kidFootwear.html"><img class="sale-item" src="images/kids footwear/Kid_s_Footwear.webp"></a>
+
+     <a href="womenBag.html"><img class="sale-item" src="images/women bags/Women-Fashion-Bags.jpg"></a>
+
+     <a href="wallet.html"><img class="sale-item" src="images/men wallet/wallets.webp"></a>
+
+     <a href="belt.html"><img class="sale-item" src="images/belt/belt.webp"></a>
+
+     <a href="tie.html"><img class="sale-item" src="images/tie/tie.webp"></a>
+
+     <a href="necklace.html"><img class="sale-item" src="images/necklace/necklace.webp"></a>
+
+     <a href="earring.html"><img class="sale-item" src="images/earrings/earrings.webp"></a>
+
+   
+   </div> 
+
+  
+
+    <div class="category-heading">Explore more</div>
+
+    <div class="category-item">
+
+
+      <a href="homeAppliance.html"><img class="sale-item" src="images/home appliance/home-appliance.png" ></a>
+
+      <a href="backpack.html"><img class="sale-item" src="images/backpacks/backpack.webp" ></a>
+ 
+      <a href="luggage.html"><img class="sale-item" src="images/luggage/luggage.avif" ></a>
+ 
+      <a href="stationary.html"><img class="sale-item" src="images/stationary/stationary.jpeg" ></a>
+ 
+      <a href="furniture.html"><img class="sale-item" src="images/furniture/furniture.jpg" ></a>
+ 
+      <a href="perfume.html"><img class="sale-item" src="images/perfume/perfume.jpg" ></a>
+ 
+      <a href="kitchen.html"><img class="sale-item" src="images/kitchen/kitchen.jpg" ></a>
+ 
+      <a href="mobile.html"><img class="sale-item" src="images/phone/Smartphone.png" ></a>
+ 
+      <a href="toy.html"><img class="sale-item" src="images/toys/toy.avif" ></a>
+ 
+      <a href="decor.html"><img class="sale-item" src="images/decor/decor.png" ></a>
+ 
+      <a href="headphone.html"><img class="sale-item" src="images/headphones/headphone.jpg" ></a>
+ 
+      <a href="laptop.html"><img class="sale-item" src="images/laptops/laptop.jpg" ></a>
+
+      <a href="womenWatch.html"><img class="sale-item" src="images/women watch/Watches_Women.webp" ></a>
+
+      <a href="menWatch.html"><img class="sale-item" src="images/man watch/Watches-Men.webp" ></a>
+
+      <a href="tv.html"><img class="sale-item" src="images/tv/tv.webp" ></a>
+
+    
+    </div> 
+
+</main>
+<footer>
+
+ <div class="footer-container">
+
+   <div class="footer-column">
+    <h3>ONLINE SHOPPING</h3>
+       <a href="#0">Men</a>
+       <a href="#0">Women</a>
+       <a href="#0">Kids</a>
+       <a href="#0">Home & Living</a>
+       <a href="#0">Beauty</a>
+       <a href="#0">Gift Card</a>
+       <a href="#0">Myntra Insider</a>
+
+
+
+   </div>
+
+
+   <div class="footer-column">
+     <h3>ONLINE SHOPPING</h3>
+        <a href="#0">Men</a>
+        <a href="#0">Women</a>
+        <a href="#0">Kids</a>
+        <a href="#0">Home & Living</a>
+        <a href="#0">Beauty</a>
+        <a href="#0">Gift Card</a>
+        <a href="#0">Myntra Insider</a>
+
+
+
+    </div>
+
+
+    <div class="footer-column">
+     <h3>ONLINE SHOPPING</h3>
+        <a href="#0">Men</a>
+        <a href="#0">Women</a>
+        <a href="#0">Kids</a>
+        <a href="#0">Home & Living</a>
+        <a href="#0">Beauty</a>
+        <a href="#0">Gift Card</a>
+        <a href="#0">Myntra Insider</a>
+
+
+
+    </div>
+
+
+
+
+    
+ </div>
+
+
+ <hr>
+
+ <div class="copyright">
+   © 2024 www.kmart.com. All rights reserved.
+ </div>
+
+</footer>
+
+  
+
+  <script src="function.js"></script> 
+  <script src="script.js"></script>
+</body>
+</html>
