@@ -52,6 +52,7 @@ nav {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  text-transform: uppercase;
 
 
   position: relative;
@@ -364,34 +365,107 @@ nav {
 }
 
 .footer-container {
-  padding: 30px 0px 40px 0px;
+  padding: 50px 0;
+  /* width: 90%; */
+  margin: 0 auto;
   background-color: #90fca6;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
+  padding: 0 25px;
+  
 }
 
 .footer-column h3 {
-  color: #0e2ab6;
+  color: #c8084e;
   font-size: 14px;
   margin-bottom: 25px;
+  /* padding: 20px; */
 }
 
 .footer-column a {
-  color: #a00709;
+  color: #b11156;
   font-size: 15px;
-  text-decoration: none;
   padding-bottom: 5px;
+  text-decoration: none;
+ 
+}
+
+.footer-column ul li {
+  list-style: none;
+}
+
+.about, .contact {
+  width: 40%;
+}
+
+.link {
+  width: 20%;
+  
+}
+
+.link ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  
+}
+
+.link ul li a:hover {
+  color: #1a0472;
+}
+
+.link ul li a {
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: block;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media ul {
+  display: flex;
+}
+
+.social-media ul li a {
+  display: inline-block;
+  margin-right: 50px;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+  background-color: transparent;
+  border: 1px solid #090000;
+  text-align: center;
+
+}
+
+.social-media ul li a:hover {
+color: #1007ae;
+background-color: rgb(247, 169, 155);
+}
+
+.contact ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact ul li span {
+  margin-right: 15px;
 }
 
 .copyright {
-  color: #0522a3;
+  color: #1007ae;
   text-align: center;
   padding: 15px;
+  background-color: #4d945f;
 }
 
 
