@@ -468,6 +468,46 @@ background-color: rgb(247, 169, 155);
   background-color: #4d945f;
 }
 
+.popup {
+  width: 450px;
+  height: 320px;
+  background-color: #debefe;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 60px  40px;
+  color: rgb(16, 9, 152);
+  visibility: hidden;
+  transition: transform 0.5s, top 0.5s;
+}
+
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  width: 30%;
+  margin-top: 40px;
+  padding: 10px 0;
+  background-color: #0bd9ef;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(72, 14, 220, 0.629);
+}
+
 
 .cart-item-count {
   background-color: rgb(103, 243, 43);

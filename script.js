@@ -88,3 +88,6 @@ next_arrow.addEventListener('click', (e) => {
   }
   changeSlide();
 })
+
+
+

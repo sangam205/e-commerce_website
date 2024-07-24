@@ -116,6 +116,18 @@ function generateItemHTML(item) {
 
 }
 
+let pop_up = document.getElementById("pop_up");
+
+function open_Popup() {
+  popup.classList.add("open-popup");
+}
+
+  function close_Popup() {
+    popup.classList.remove("open-popup");
+
+}
+
+
 
 
 

@@ -111,8 +111,14 @@
     <div class="register-heading">Register</div>
 
     <form action="#" class="form">
-      <input type="text" placeholder="Enter your email/phone no...." required>
-      <input type="submit" class="register-button" value="Register" onclick="alert('You have been registered.')">
+      <input type="text" placeholder="Enter your email/phone no....">
+      <input type="submit" class="register-button" value="Register" onclick="openPopup()">
+
+      <div class="popup" id="popup">
+        <h2>Thank you...!!!</h2>
+        <p>You have been successfully registered.</p>
+        <button onclick="closePopup()">OK</button>
+      </div>
     </form>
 
     <div class="social-icons-container">
