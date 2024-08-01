@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-logo img:hover {
-  background-color: rgb(92, 232, 221);
+  background-color: rgb(241, 231, 114);
 }
 
 .nav-links li {
@@ -77,7 +77,7 @@ nav {
   /* left: 0; */
   /* width: 200px; */
   width: 180px;
-  background-color: rgb(45, 217, 168);
+  background-color: rgb(132, 217, 251);
   display: none;
  
   /* margin: 45px 0; */
