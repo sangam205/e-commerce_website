@@ -1,15 +1,15 @@
 <h1>E-Commerce Website</h1> <br>
 
-<p><b>DESCRIPTION:  Developed a multi-page shopping website where users can add products to a cart from various pages and view selected items in a cart page. <br> 
-Utilized local storage for data persistence across sessions.</b></p> <br> <br>
+<p><b>DESCRIPTION:  </b>Developed a multi-page shopping website where users can add products to a cart from various pages and view selected items in a cart page. <br> 
+Utilized local storage for data persistence across sessions.</p> <br> <br>
 
-<p><b>TECHNOLOGIES USED:  HTML, CSS, JavaScript</b></p> <br> <br>
+<p><b>TECHNOLOGIES USED:  </b>HTML, CSS, JavaScript</p> <br> <br>
 
 <p><b>KEY FEATURES:</b><br> <br>
-<li><b>Dynamic Cart Functionality:  </b> Implemented a cart system using local storage to maintain state across multiple pages and sessions.</li> <br> <br>
-<li><b>Interactive UI:  </b>Designed and developed user interfaces for product pages and cart page using HTML and CSS.</li><br> <br>
-<li><b>JavaScript Integration:  </b>Created JavaScript functions for adding products to the cart and displaying them, ensuring a seamless user experience.</li><br> <br>
-<li><b>Responsive Design:  </b>Ensured the website is accessible and functional on various devices, including desktops and mobile devices.</li></p> <br> <br>
+<li><b>Dynamic Cart Functionality:    </b> Implemented a cart system using local storage to maintain state across multiple pages and sessions.</li> <br> <br>
+<li><b>Interactive UI:    </b>Designed and developed user interfaces for product pages and cart page using HTML and CSS.</li><br> <br>
+<li><b>JavaScript Integration:    </b>Created JavaScript functions for adding products to the cart and displaying them, ensuring a seamless user experience.</li><br> <br>
+<li><b>Responsive Design:    </b>Ensured the website is accessible and functional on various devices, including desktops and mobile devices.</li></p> <br> <br>
 
 ![1](https://github.com/user-attachments/assets/f33d3de4-28ad-48ae-ae64-7c2b46bee651)  <br>
 
